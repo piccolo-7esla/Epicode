@@ -1,0 +1,214 @@
+html
+{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    line-height: 22px ;
+}
+body
+{
+    margin: 0px;
+    text-align: center;
+    line-height: 1.4;
+    padding: 10px;
+}
+h1
+{
+    color: #25a2c3;
+    text-transform:capitalize;
+    font-family: "Montserrat", sans-serif;
+}    
+header
+{
+    margin: 0px;
+}
+header div 
+{
+    background-color: black;
+    text-align: center;
+}
+header div img
+{
+    width: 100px;
+    height: 30px;
+    padding: 50px ;
+}
+main
+{
+    display: block;
+}
+#bottone
+{
+    background-color: #e22d0e;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main section p a{
+    color: white;
+    text-decoration: none;
+}
+#sezione1
+{
+    background-image:url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5em;
+    padding-bottom: 10em;
+    margin-top: 0%;
+}
+.imgarrotondata{
+    border-radius: 100%;
+}    
+article
+{
+    background-color: rgb(224, 69, 30) ;
+    color: white;
+    padding: 20px;
+}
+article p
+{
+    line-height: 4px ;
+}
+#mariorossi
+{
+    font-weight: bold;
+    padding-top: 30px;
+}
+#ceo
+{
+    font-size: small;
+}
+main section h2
+{
+    color: #25a2c3;
+    text-transform:initial;
+    font-family: "Montserrat", sans-serif;
+}
+main section img
+{
+    border-radius: 300px;
+}
+main section p
+{
+    padding: 0px 40px;
+}
+aside section
+{
+    text-align: center;
+    border: 1px gray solid;
+    margin: 40px;
+}
+aside section img
+{
+    width: 100%;
+}
+aside section h2
+{
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+}
+aside section p
+{
+    padding: 10px;
+}
+footer
+{
+    background-color: #25a2c3;
+    text-align: center;
+    color: white;
+    padding: 50px 50px;
+}
+.icon:before 
+{
+    font-family: FontAwesome ;
+}
+footer h2
+{
+    font-size: 40px ;
+}
+footer address
+{
+    padding: 1em;
+}
+footer address span 
+{
+    color: red;
+}
+footer address a
+{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen  and (min-width: 478px) and (max-width: 768px) {
+    #sezione1{
+        background-size: 100%;
+    }
+    body{
+        font-size: 20px;
+    }
+    #sezione2{
+        padding: 75px;
+    }
+    .rounded-notebook{
+        width: 85%;
+    }
+    p{
+        font-size: 95%;
+    }
+    address{
+        font-size: 50%;
+    }
+    .copyrigth{
+        font-size: 50%;
+    }
+    footer{
+        font-size: 130%;
+    }
+    h1{
+        font-size: 210%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    #bottone{
+        padding: 20px 80px
+    }
+}
+
+@media screen  and (min-width: 768px) and(max-width:1024px) {
+    h1{
+        font-size: 260%;
+    }
+    h2{
+        font-size: 240%;
+    }
+    #andiamo{
+        font-size: 170%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
