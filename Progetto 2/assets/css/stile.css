@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+main {}
+.logo {
+    padding: 20px 120px 20px 120px;
+    position: relative;
+    background-color: #f3f3f3;
+}
+ul {
+    position: absolute;
+    list-style-type: none;
+    padding: 34px 120px 30px 0px;
+    margin: 0;
+    top: 0;
+    right: 20px;
+}
+li {
+    float:right;
+    padding-left: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+.image {
+    color: #f3f3f3;
+    text-align: start;
+    padding: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/banner.jpg);
+}
+span {
+    text-transform: uppercase;
+}
+#prima {
+    text-align: center;
+    padding: 4em 0 4em 0;
+}
+#seconda {
+    display: flex;
+    padding: 3em 10em 3em 10em;
+}
+i {
+    text-align: center;
+}
